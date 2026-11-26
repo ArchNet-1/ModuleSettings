@@ -1,0 +1,21 @@
+// Created by the ArchNet Hub (Services > Settings). This file is yours: change it freely.
+// Open the options menu from anywhere:   Services.Get<GameSettings>().Open();
+// Volumes: add an "ArchNet/Audio Channel Volume" component next to each AudioSource and pick
+// its channel (Music, Effects, Interface); it follows the sliders.
+// Restyle the menu: Assets/ArchNet/Settings/Prefabs/Settings.prefab
+// Docs: https://archnet-plateform.fr/#ModuleSettings
+
+using ArchNet.Module;
+
+namespace {{NAMESPACE}}
+{
+    public class GameSettings : SettingsService
+    {
+        // Runs after every change in the menu and when the game starts.
+        public override void Apply()
+        {
+            base.Apply();
+            // Apply settings of your own here (camera sensitivity, subtitles…).
+        }
+    }
+}

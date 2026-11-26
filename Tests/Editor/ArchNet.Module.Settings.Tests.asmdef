@@ -1,0 +1,25 @@
+{
+    "name": "ArchNet.Module.Settings.Tests",
+    "rootNamespace": "ArchNet.Module.Tests",
+    "references": [
+        "ArchNet.Module.Settings",
+        "ArchNet.Core",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

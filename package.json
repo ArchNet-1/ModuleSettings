@@ -1,0 +1,20 @@
+{
+  "name": "com.archnet.module.settings",
+  "version": "2.0.0",
+  "displayName": "ArchNet - Settings Module",
+  "description": "A complete options menu in three pages (general, audio, video): frame rate, V-Sync, volumes per channel, display mode, resolution and quality, applied at once and saved. Replaces the Audio, Video and Shadow modules for new projects.",
+  "unity": "6000.0",
+  "license": "MIT",
+  "documentationUrl": "https://archnet-plateform.fr/#ModuleSettings",
+  "changelogUrl": "https://github.com/ArchNet-1/ModuleSettings/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ModuleSettings/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": ["archnet", "module", "settings", "options", "audio", "video", "volume", "resolution"],
+  "author": {
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
+  }
+}
